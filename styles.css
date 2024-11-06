@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  text-align: left;
+  width: 473px;
+  height: 210px;
+  left: 100px;
+  top: 117px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 130px;
+  line-height: 105px;
+  letter-spacing: -0.05em;
+  color: #000000;
+}
+
+p {
+  position: absolute;
+  text-align: left;
+  width: 400px;
+  height: auto;
+  left: 100px;
+  top: 450px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #959595;
+}
+
+.book-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.book-covers {
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  margin-bottom: 100px;
+  padding-right: 20px;
+}
+
+.cover-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.book-cover:hover .cover-image {
+  transform: scale(1.05);
+}
